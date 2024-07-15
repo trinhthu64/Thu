@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top-bar{
+	height:50px;
+	line-height:50px;
+}
+.top-bar a{
+	color:white;
+}
+.top-bar a:hover{
+	color:#FFC113;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 10px 20px;
+	border-radius: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color:#056CB6;
+	background-color:#FFC113;
+}
+main{
+	min-height:500px
+}
+footer{
+	min-height:200px
+}
+.gach-chan{
+	border-bottom: 2px solid #FFC113
+}
+footer .navbar-nav .nav-item .nav-link:hover{
+	color:#FFC113
+}
+#service a{
+	text-decoration: none;
+	color:#056CB6
+}
+#service a:hover{
+	color:#FFC113
+}
+#news a{
+	text-decoration: none;
+	color:#056CB6
+}
+#news a:hover{
+	color:#FFC113
+}
+.xem-them{
+	height:100px
+}
+#why{
+	width: 100%;
+	min-height: 350px;
+	background-image: url("../images/why.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top
+}
+.hinh{
+	width:100%;
+	position:relative
+}
+.truoc{
+	position:absolute;
+	left:0;
+	top:0;
+	padding:6px;
+	background-color:rgba(148,148,148,0.50);
+}
+.sau{
+	position:absolute;
+	left:50%;
+	top:0;
+	padding:6px;
+	background-color:rgba(148,148,148,0.50);
+}
